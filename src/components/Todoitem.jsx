@@ -12,6 +12,7 @@ export const Todoitem = ({ id, title }) => {
       );
       const data = await response.json();
       toast.info("Успешно удален!");
+      toast.info("Mars Krasavchic");
     } catch (error) {
       toast.error(error.message);
     }
